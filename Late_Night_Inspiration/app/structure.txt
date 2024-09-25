@@ -1,0 +1,31 @@
+project-root/
+│
+├── app/
+│   ├── api/
+│   │   ├── v1/
+│   │   │   ├── endpoints/
+│   │   │   │   ├── ideas.py
+│   │   │   │   └── users.py
+│   │   │   └── __init__.py
+│   ├── core/
+│   │   └── config.py
+│   ├── db/
+│   │   ├── init_db.py
+│   │   ├── models/
+│   │   │   ├── ideas.py
+│   │   │   └── users.py
+│   │   └── session.py
+│   ├── services/
+│   │   ├── idea_service.py
+│   │   └── user_service.py
+│   ├── tasks/
+│   │   └── scheduler.py
+│   ├── utils/
+│   │   └── hashing.py
+│   └── main.py
+├── tests/
+│   ├── test_ideas.py
+│   └── test_users.py
+├── .env
+├── requirements.txt
+└── README.md
